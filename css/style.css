@@ -1,0 +1,160 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #efefef;
+}
+	
+.container1{
+	position: absolute;
+	top: 140px;
+	width: 100%;
+	
+}
+
+.naslov{
+	position: absolute;
+	color: #fff;
+	top: 14px;
+	left: 120px;
+	font-size: 23pt;
+	max-width: 238px;
+}
+
+.navbar1 {
+  	overflow: hidden;
+  	background-color: #2c89ed;
+  	width: 100%;
+  	padding-left: 25px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+
+.navbar1 a {
+  	float: left;
+  	font-size: 18px;
+  	color: white;
+  	text-align: center;
+  	padding: 10px 18px 10px 18px;/*
+  	width :145px;*/
+  	text-decoration: none;
+}
+
+.dropdown1 {
+  	float: left;
+  	overflow: hidden;
+
+}
+
+.dropdown1 .dropbtn1 {
+  	font-size: 18px;  
+  	border: none;
+  	outline: none;
+  	color: white;
+  	padding: 10px 18px 10px 18px;/*
+  	width: 145px;*/
+  	background-color: inherit;
+  	font-family: inherit;
+  	margin: 0;
+}
+
+.navbar1 a:hover, .dropdown1:hover .dropbtn1 {
+  	background-color: #0a3e75;
+}
+
+.dropdown1-content {
+  	display: none;
+  	position: absolute;
+  	background-color: #2c89ed;
+  	min-width: 100px;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+  	z-index: 1;
+}
+
+.dropdown1-content a {
+  	float: none;
+  	color: #fff;
+  	padding: 10px 12px;
+  	text-decoration: none;
+  	overflow: hidden;
+  	display: block;
+  	text-align: left;
+}
+
+.dropdown1-content a:hover {
+  	background-color: #0a3e75;
+}
+
+.dropdown1:hover .dropdown1-content {
+  	display: block;
+}
+
+.footer{
+	position: relative;
+	background-color: #053582;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	border-top: 9px solid #cc1616;
+	border-bottom: 9px solid #053582;
+	padding: 10px ;
+	color: #0a3e75;
+	margin: 0px;
+}
+.footer a{
+	color: #fff;
+}
+.footer h4{
+	position: relative;
+	margin-left: 150px;
+}
+
+.jezici{
+	position: absolute;
+	margin-top: -39px;
+	right: 50px;
+	font-size: 15pt;
+}
+
+.jezici a{
+	color: #cc1616;
+
+}
+
+.wrapp{
+	border: 2px solid #eeeeee;
+	padding: 45px;
+	margin: 40px;
+	margin-top: 220px;
+	background-color: #fff;
+  	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.5);
+}
+
+.modal-content{
+	border: 1px solid #0d4077;
+}
+
+#myBtn {
+	display: none;
+	position: fixed;
+	bottom: 20px;
+	right: 40px;
+	z-index: 99;
+	border: none;
+	outline: none;
+	background-color: #2c89ed;
+	color: #fff;
+	cursor: pointer;
+	padding: 10px;
+	border-radius: 4px;
+}
+
+#myBtn:hover {
+  	background-color: #cc1616;
+}
+
+.deoFutera{
+	height: 200px; 
+	width: 450px; /*
+	border: 1px solid red;*/ 
+	padding: 10px; 
+	margin: 0 30px;
+}
